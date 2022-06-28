@@ -1,0 +1,301 @@
+body {
+    background-image: url(../images/home2_02.jpg),
+    url(../images/home2_08.jpg),
+    url(../images/home2_04.jpg);
+    background-position: top right, bottom left, top left;
+    background-repeat: no-repeat , no-repeat, repeat;
+    background-size: 44% 40%, 44% 55%, 1px 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho .container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 220px;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+.img-logo {
+    margin: 20px 2em;
+}
+
+.contentIntro-titulo {
+    margin: 30px 0;
+    width: 45%;
+    padding: 5px 10px;
+    align-self: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(153, 2, 2, 1);
+}
+
+.contentIntro-titulo::after {
+    content: '.com.br';
+    text-transform: none;
+    color: rgba(10, 10, 10, 0.75);
+}
+
+.contentIntro-texto {
+    width: 62%;
+    line-height: 20px;
+}
+
+.contentIntro-linkSM {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    color:  rgba(153, 2, 2, 1);
+}
+
+.faixaVisitantes-texto {
+    margin: 0 30px;
+    position: absolute;
+    margin-top: -60px;
+    text-transform: uppercase;
+    color: rgb(239, 239, 239);
+}
+
+.conteudoCaixas .container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 290px;
+    align-content: space-between;
+}
+
+.caixaExplicativa {
+    margin: 0 40px;
+    height: 290px;
+    width: min-content;
+    background-color: rgba(133, 2, 2, 1);
+    box-sizing: border-box;
+    border: 1px solid  rgba(153, 2, 2, 1);
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+}
+
+.caixaExplicativa-titulo {
+    margin: 9px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(239, 239, 239);
+}
+
+.caixaExplicativa-texto {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 9px 6px;
+    color: rgb(239, 239, 239);
+}
+
+.conteudo-linkSM {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color:  rgb(239, 239, 239);
+}
+
+.caixaInformacoes {
+    margin: 0 40px;
+    height: 290px;
+    width: 318px;
+    text-align: center;
+}
+
+.balaoAtendimento {
+    margin-left: -190px;
+}
+
+.centralAgendamento-titulo {
+    margin: auto;
+    height: 54px;
+}
+.centralAgendamento {
+    vertical-align: top;
+    margin: -50px 0 0 94px;
+    width: min-content;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(56, 45, 128);
+    font-weight: bold;
+}
+
+
+.centralAgendamento-contato-tel {
+    margin: 30px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.centralAgendamento-contato-email {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.avaliacaoGratuita {
+    margin: 44px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(56, 45, 128);
+}
+
+.pagamento {
+    margin-top: 20px;
+}
+
+.planoPagamento {
+    background-color: rgb(56, 45, 128);
+    box-sizing: border-box;
+    border: 2px solid rgb(56, 45, 128);
+    border-radius: 5px;
+    width: 240px;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(239, 239, 239);
+}
+
+.planoPagamento-texto {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.planoPagamento-36 {
+    letter-spacing: 1px;
+    font-size: 23px;                                    
+    margin: 11px 11px 6px;
+}
+
+
+.caixasDeContato {
+    margin: 40px 40px;
+    height: 230px;
+}
+
+.caixasDeContato .container {
+    display: flex;
+    flex-flow: column wrap;
+    height: inherit;
+    align-content: space-around;
+}
+
+.caixaContato-conteudo .container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 176px;
+}
+
+.caixaContato-conteudo {
+    width: 32%;
+    border-radius: 5px;
+    background-color: rgb(205, 204, 205);
+    padding: 5px;
+}
+
+.contato-subtitulos {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px 0 15px;
+    color: rgba(133, 2, 2, 1);
+}
+
+.contato-locais {
+    font-size: 14px;
+    margin: 0 0 7px;
+}
+
+.contato-texto {
+    width: 197px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 18px 0 10px 0;
+}
+
+.contato-imagem {
+    width: min-content;
+    margin: 18px 0;
+}
+
+.caixaContato-conteudo .container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 220px;
+}
+
+.formlain {
+    width: 45%;
+}
+
+.inputPadrao {
+    width: 96%;
+    height: 24px;
+    margin: 5px 0;
+    border: 2px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(147, 144, 144)
+}
+
+.formlain-titulo {
+    width: 45%;
+}
+
+.formlainMensagem {
+    width: 45%;
+    margin: 33px 0 0;
+    height: max-content;
+}
+
+#mensagem {
+    height: 110px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+
+.enviar {
+    align-self: flex-end;
+    margin: 0 2px;
+}
+
+.botaoEnviar {
+    height: 21px;
+    border: none;
+    border-radius: 5px;
+    color:rgb(239, 239, 239);
+    background-color: rgba(153, 2, 2, 1);
+    font-weight: bold;
+    box-shadow: inset -2px -3px 3px 0px rgb(0 0 0), inset 2px 2px 4px rgb(253 253 253 / 79%)  
+}
+
+
+.footer {
+    background-color: rgba(153, 2, 2, 1);
+}
+
+.footer-conteudo {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-texto {
+    font-size: 12px;
+    color: rgb(239, 239, 239);
+    text-transform: uppercase;
+}
+
+.footer-texto::after {
+    content: '2012 - Todos os direitos reservados';
+    text-transform: none;
+}

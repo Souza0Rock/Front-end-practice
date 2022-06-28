@@ -1,0 +1,28 @@
+body {
+    background: url(../images/topo.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgLogo-header {
+    position: absolute;
+    left: 210px;
+    top: 35px;
+}
+
+.divHeader {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navUl-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLi-header {
+    width: min-content;
+}
