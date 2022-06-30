@@ -1,18 +1,19 @@
 body {
     background: url(../images/topo.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
 
 .imgLogo-header {
     position: absolute;
-    left: 210px;
-    top: 35px;
+    left: 207px;
+    top: 33px;
 }
 
 .divHeader {
     position: absolute;
-    top: 60%;
+    top: 385px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -25,4 +26,15 @@ body {
 
 .navLi-header {
     width: min-content;
+}
+
+.buttonNavDGreen-header .buttonNavGreen-header .buttonNavOrange-header .buttonNavBlue-header .buttonNavWine-header .buttonNav-header {
+    width: 153px;
+    height: 44px;
+    border-width: inherit;
+    color: #fff;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 0px 2px #fff;
+    background:#44c767;
 }
