@@ -15,6 +15,7 @@ body {
     position: absolute;
     top: 385px;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -28,7 +29,7 @@ body {
     width: min-content;
 }
 
-.buttonNavDGreen-header .buttonNavGreen-header .buttonNavOrange-header .buttonNavBlue-header .buttonNavWine-header .buttonNav-header {
+.buttonNavDGreen-header ,.buttonNavGreen-header ,.buttonNavOrange-header ,.buttonNavBlue-header ,.buttonNavWine-header ,.buttonNavPurple-header {
     width: 153px;
     height: 44px;
     border-width: inherit;
@@ -36,5 +37,29 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 0px 0px 2px #fff;
-    background:#44c767;
 }
+
+.buttonNavDGreen-header {
+    background-color: rgb(1, 102, 44);
+}
+
+.buttonNavGreen-header {
+    background-color: rgb(142, 191, 63);
+}
+
+.buttonNavOrange-header {
+    background-color: rgb(231, 120, 38);
+}
+
+.buttonNavBlue-header{
+    background-color: rgb(53, 148, 192);
+}
+
+.buttonNavWine-header {
+    background-color: rgb(194, 13, 92);
+}
+
+.buttonNavPurple-header {
+    background-color: rgb(145, 82, 127);
+}
+
