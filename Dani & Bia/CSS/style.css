@@ -43,11 +43,11 @@ body {
     background-color: rgb(1, 102, 44);
 }
 
-.buttonNavGreen-header {
+.buttonNavGreen-header ,.cardHall-header {
     background-color: rgb(142, 191, 63);
 }
 
-.buttonNavOrange-header {
+.buttonNavOrange-header ,.cardToys-header {
     background-color: rgb(231, 120, 38);
 }
 
@@ -59,7 +59,33 @@ body {
     background-color: rgb(194, 13, 92);
 }
 
-.buttonNavPurple-header {
+.buttonNavPurple-header ,.cardMenu-header {
     background-color: rgb(145, 82, 127);
 }
 
+.cardMenu-header ,.cardToys-header ,.cardHall-header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: min-content;
+}
+
+.cardTxt-header {
+    width: min-content;
+    height: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cardSpanGreen-header {
+    color: rgb(142, 191, 63);
+}
+
+.cardSpanPurple-header {
+    color: rgb(145, 82, 127);
+}
+
+.cardSpanOrange-header {
+    color: rgb(231, 120, 38);
+}
