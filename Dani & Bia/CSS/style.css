@@ -1,8 +1,8 @@
 body {
+    font-family: 'Public Sans', sans-serif;
     background: url(../images/topo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
 }
 
 .imgLogo-header {
@@ -33,10 +33,14 @@ body {
     width: 153px;
     height: 44px;
     border-width: inherit;
-    color: #fff;;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 0px 0px 2px #fff;
+    cursor: pointer;
 }
 
 .buttonNavDGreen-header {
@@ -63,29 +67,62 @@ body {
     background-color: rgb(145, 82, 127);
 }
 
+.cardsUl-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: -55px;
+}
+
 .cardMenu-header ,.cardToys-header ,.cardHall-header {
     display: flex;
-    flex-direction: row-reverse;
+    flex-flow: row-reverse;
+    justify-content: space-between;
     align-items: center;
-    width: min-content;
+    width: 31%;
+}
+
+.cardMenu-header {
+    padding: 5px 0 5px 5px;
+}
+
+.cardToys-header ,.cardHall-header {
+    padding: 5px;
 }
 
 .cardTxt-header {
     width: min-content;
     height: fit-content;
+    margin-left: 5px;
+    line-height: 30px;
+    letter-spacing: 1px;
     text-transform: uppercase;
+    text-shadow: 0 0 5px #000;
     font-weight: bold;
+    font-size: 24px;
     color: #fff;
 }
 
-.cardSpanGreen-header {
+.cardToys-header div {
+    margin-left: 1px;
+}
+
+.wordSpanGreen-header {
     color: rgb(142, 191, 63);
 }
 
-.cardSpanPurple-header {
+.wordSpanPurple-header {
     color: rgb(145, 82, 127);
+    text-shadow: 0 0 5px #fff;
 }
 
-.cardSpanOrange-header {
+.wordSpanOrange-header {
     color: rgb(231, 120, 38);
+    text-shadow: 0 0 5px #fff;
+}
+
+section {
+    position: absolute;
+    right: 0px;
 }
