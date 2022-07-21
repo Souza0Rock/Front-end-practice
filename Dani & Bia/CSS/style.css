@@ -6,18 +6,22 @@ body {
 }
 
 .imgLogo-header {
-    position: absolute;
-    left: 207px;
-    top: 33px;
+    width: fit-content;
+    margin-left: 209px;
+    padding: 36px 0;
 }
 
-.divHeader {
+/*.divHeader {
     position: absolute;
     top: 385px;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
+}
+
+.divHeader-ul {
+    margin: auto;
 }
 
 .navUl-header {
@@ -120,9 +124,4 @@ body {
 .wordSpanOrange-header {
     color: rgb(231, 120, 38);
     text-shadow: 0 0 5px #fff;
-}
-
-section {
-    position: absolute;
-    right: 0px;
-}
+} */
